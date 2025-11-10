@@ -1,39 +1,60 @@
-# Insurance Analytics Project
+# 🛡️ Insurance Insights: Customer Sentiment & Claims Analytics
 
-## Project Overview
+## 📊 Project Overview
 
-This project analyzes insurance customer feedback and transaction records to generate insights and interactive visualizations.
+This repository contains a suite of interactive Power BI dashboards and analytical scripts to uncover trends and actionable insights from insurance customer feedback and claims data. Secure Row-Level Security (RLS) ensures data privacy for all stakeholders.
 
-### Features
+---
 
-- Sentiment analysis and text mining on customer feedback (Excel input).
-- Large-scale data analysis of insurance policies and claims (CSV input).
-- SQL integration for scalable data management.
-- Power BI dashboarding for interactive, role-based insights.
-- Row-Level Security (RLS) for secure and personalized analytics views.
+## 🎯 Project Objectives
 
-### Files Included
+- Sentiment analysis of insurance customer feedback using NLP.
+- Claims analytics: explore patterns across settled, rejected, and pending claims by demographics and policy types.
+- Interactive Power BI dashboards with dynamic filters for business exploration.
+- SQL-based automated data modeling and ETL.
+- Implementation of Row-Level Security (RLS) for data protection.
 
-- `Insurance-Customer-Feedback.xlsx`: Customer sentiment feedback data.
-- `InsuranceData.csv`: Transaction-level insurance and claims data.
-- `InsuranceData.sql`: SQL script for schema creation and data extraction.
+---
 
-### Getting Started
+## 🧰 Tools & Technologies
 
-1. Clone the repository.
-2. Explore data with provided files and scripts (Excel, CSV, SQL).
-3. Import datasets into Power BI.
-4. Review the README for project details and methodology.
+| Tool                | Purpose                                   |
+|---------------------|-------------------------------------------|
+| Power BI            | Dashboards & RLS                          |
+| Excel, CSV          | Source data                               |
+| Power Query         | Data cleaning and integration              |
+| SQL                 | Data modeling & ETL                       |
+| NLP/Text Analysis   | Feedback sentiment extraction             |
 
-### Key Insights
+---
 
-- Detailed sentiment segmentation across customer feedback.
-- Claims analysis by policy type, age, gender, and outcome.
-- Secure insights via Row-Level Security implementation in Power BI.
-- Automated SQL data extraction and modeling.
+## 📈 Key Insights
 
-### Contact
+- Uncovered major customer satisfaction themes and areas of concern.
+- Visualized claims performance by age, gender, and policy for actionable recommendations.
+- Secured analytics access using robust Row-Level Security.
 
-For Power BI dashboard access or further queries, please contact via LinkedIn or GitHub issues.
+---
 
+## 🏗️ Getting Started
 
+1. Clone this repository to your local machine.
+2. Open the provided Power BI files and connect to the datasets (`Insurance-Customer-Feedback.xlsx`, `InsuranceData.csv`).
+3. Run the `SQLQuery1.sql` script for your local database setup (optional).
+4. Review documentation and dashboards for insights.
+
+---
+
+## 📂 Files Included
+
+- `Insurance-Customer-Feedback.xlsx`: Raw customer feedback.
+- `InsuranceData.csv`: Insurance policy and claims transaction data.
+- `InsuranceData.sql`: SQL schema and sample queries.
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](Preview1.PNG)
+
+---
