@@ -55,6 +55,9 @@ This repository contains a suite of interactive Power BI dashboards and analytic
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](Preview1.PNG)
+![Dashboard Preview](Preview1.png)
+
+![Dashboard Preview-2](Preview2.png)
+
 
 ---
